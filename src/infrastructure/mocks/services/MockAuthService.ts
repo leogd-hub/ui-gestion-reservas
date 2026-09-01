@@ -46,7 +46,7 @@ export class MockAuthService implements IAuthService {
     }, 'No se pudo registrar el usuario (mock)');
   }
 
-  logout(): Promise<void> {
+  logout(_userId: string): Promise<void> {
     return this.runner.run(() => {
       this.currentUser = null;
     });
