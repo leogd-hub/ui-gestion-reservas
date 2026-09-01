@@ -1,3 +1,3 @@
-# Presentation
+# Presentation Layer
 
-Pantallas, componentes y navegación.
+Entrada de UI y composición principal de navegación/estado.
